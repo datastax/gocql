@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - cicd
   pull_request:
     types: [ opened, synchronize, reopened ]
 
